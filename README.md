@@ -3,6 +3,7 @@
 kvs
 
 * boltdb
+* goleveldb
 
 RDB
 
