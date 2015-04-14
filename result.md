@@ -9,6 +9,7 @@ spec
 * sqlite3: 3.7.13
 * bolt: based on https://github.com/boltdb/bolt/commit/3b449559cf34cbcc74460b59041a4399d3226e5a
 
+```
 	-> % sw_vers
 	ProductName:    Mac OS X
 	ProductVersion: 10.9.5
@@ -34,3 +35,4 @@ spec
 	BenchmarkSQLiteReadRangeWithoutIndex       50000             27262 ns/op
 	BenchmarkSQLiteReadRangeWithIndex          50000             33665 ns/op
 	ok      github.com/suzuken/dbbench      164.240s
+```
